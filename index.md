@@ -3,7 +3,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| David D. | Homestead High School | Electrical Engineering | Incoming Senior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -32,11 +32,29 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
+My project is the Automated Cat Laser. 
+- In the first milestone, I built the device that allows two micro servos to rotate it, effectively creating an arm for the laser to be installed on. I also built the 
+- The micro servo in the device can rotate up to 180 degrees, and has three wires, that being a power, control, and ground wire. Additionally, I connected the servos inside the device to an arduino uno board and a cookie board. The ground wires of the servos have to go into the negative side of the cookie board, and the power wires of the servo. 
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+
+
+# Starter Project
+## Project Summary
+My starter project is the Useless Box. The Useless Box consists of a lever installed on the motherboard, which when turned on, activates a rotating servo. The servo has an arm attached to it, and when the servo is activated, the arm inside the Useless Box will rotate to the lever, turning the Useless Box off, which will return the arm that turned off the machine to the original position.
+
+The Useless Box consists of the following parts:
+- The motherboard, which connects all of the parts together
+- A switch
+- A servo that rotates around 90 degrees when the switch is activated
+- A plastic arm that is attached to the servo, which, when the lever is switched, rotates to turn off the lever.
+- A small LED light that turns green when the switch is on, and red when the switch is off
+- A battery holder to power the Useless Box
+- Resistors which limit the power used on specific parts, such as the LED
+- Screw terminals to allow wires to connect from the battery to the board
+
+## Challenges
+One challenge I faced with the project was when the arm attached to the servo missed the lever, and rendered the box *actually* useless. I had to re-adjust the servo and the arm to make sure it hit the lever when the lever was flipped. Another issue I faced was the soldering. I had to hold each piece in the correct orientation when soldering, and I consistently burned myself during the first few tries. I was eventually able to learn some tips and tricks, and finished soldering the rest of the parts without burning myself.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
