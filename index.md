@@ -32,12 +32,21 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-My project is the Automated Cat Laser. 
-- In the first milestone, I built the device that allows two micro servos to rotate it, effectively creating an arm for the laser to be installed on. I also built the 
-- The micro servo in the device can rotate up to 180 degrees, and has three wires, that being a power, control, and ground wire. Additionally, I connected the servos inside the device to an arduino uno board and a cookie board. The ground wires of the servos have to go into the negative side of the cookie board, and the power wires of the servo. 
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+## Project Summary
+My project is the Automated Cat Laser. In the first milestone, I built the device that allows two micro servos to rotate it, effectively creating an arm for the laser to be installed on. I connected all of the motors to the Arduino Uno board and the breadboard.
 
+## Parts Used
+- There are two micro servos in the device, both of which can rotate up to 180 degrees, and have three wires, that being a power, control, and ground wire.
+- The Arduino Uno board connects with the motors' control wire, and allows the program to manipulate the motors.
+- The breadboard allows the connection of multiple motors to the arduino board. There is a positive and negative row on the breadboard, and the ground wires from the motors go to the negative side of the breadboard, and the power wires from the motors go to the positive side of the breadboard. It also connects to the Arduino Uno board to allow power to be transferred to the servos.
+
+## Challenges
+- The servo horn that is supposed to go into the base of the servo device was too large, and it required me to file the servo horn down to the correct size, so that it could fit inside of the mold in the device's base.
+- It was difficult to figure out where each of the wires from the servos went. I had to scan through multiple servo documentations to figure out and understand why each wire went to their respective areas in the arduino board and breadboard.
+
+## Next Steps
+- I will add the laser diode to the servo device and the arduino board, and program it to turn on.
+- I will also refine the code for the servos, so that the servos move in a consistent pattern, rather than choppy moves in one-second intervals.
 
 # Starter Project
 ## Project Summary
@@ -55,6 +64,8 @@ The Useless Box consists of the following parts:
 
 ## Challenges
 One challenge I faced with the project was when the arm attached to the servo missed the lever, and rendered the box *actually* useless. I had to re-adjust the servo and the arm to make sure it hit the lever when the lever was flipped. Another issue I faced was the soldering. I had to hold each piece in the correct orientation when soldering, and I consistently burned myself during the first few tries. I was eventually able to learn some tips and tricks, and finished soldering the rest of the parts without burning myself.
+
+After the starter project, I will work on my intensive project, which is the Automated Cat Laser.
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
