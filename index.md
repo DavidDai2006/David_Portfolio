@@ -55,6 +55,8 @@ My project is the Automated Cat Laser. In the first milestone, I built the devic
 - I will add the laser diode to the servo device and the arduino board, and program it to turn on.
 - I will also refine the code for the servos, so that the servos move in a consistent pattern, rather than choppy moves in one-second intervals.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUVGFRCeZjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Starter Project
 ## Project Summary
 My starter project is the Useless Box. The Useless Box consists of a lever installed on the motherboard, which when turned on, activates a rotating servo. The servo has an arm attached to it, and when the servo is activated, the arm inside the Useless Box will rotate to the lever, turning the Useless Box off, which will return the arm that turned off the machine to the original position.
