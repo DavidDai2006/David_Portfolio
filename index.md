@@ -37,6 +37,12 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 -->
+## Project Summary
+In my second milestone, I installed a laser diode to the double-servo arm device, and programmed the laser to turn off and off while the servos were rotating. Additionally, I altered the code for the servos to make a consistent and streamlined movement instead of erratics jumps every second. This involved the use of "while" statements to constantly run a command that turns the servos little by little. I also added a wooden board and drilled holes into it so that I could screw in the arduino uno board and the double-servo arm.
+
+## Parts Used
+- A 5V laser diode was taped onto the servo arm. There are two wires on a 5V laser diode: the red wire acts as both the control and power wire, and the blue wire acts as the ground wire, and goes into the negative side of the breadboard.
+- Two male-to-female jumper wires were soldered to the laser diode's wires, so that the laser diode could actually be connected to the breadboard and the digital pins in the arduino uno board.
 
 # First Milestone
 ## Project Summary
