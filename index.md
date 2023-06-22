@@ -7,9 +7,9 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 | David D. | Homestead High School | Electrical Engineering | Incoming Senior
 <!---
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
 -->
+![Headstone Image](David-D-Headshot.png)
+
 # Final Milestone
 
 <!---
@@ -44,6 +44,15 @@ In my second milestone, I installed a laser diode to the double-servo arm device
 ## Parts Used
 - A 5V laser diode was taped onto the servo arm. There are two wires on a 5V laser diode: the red wire acts as both the control and power wire, and the blue wire acts as the ground wire, and goes into the negative side of the breadboard.
 - Two male-to-female jumper wires were soldered to the laser diode's wires, so that the laser diode could actually be connected to the breadboard and the digital pins in the arduino uno board.
+- An 8 in. by 8 in. wooden board was cut and holes were drilled in so that the Arduino Uno board and the servo arm could be screwed in and stay stationary while the program is being run.
+
+## Challenges
+- Laser diodes work in a much different way, and required further reading of documentation to fully understand how to activate and de-activate the laser diode I installed. The laser had two wires instead the three wires I was accustomed to from LEDs and servo motors. It turns out that the laser diode's red wire acts as both the power and control wire. Additionally, laser diodes require a completely different set of methods to turn themselves on and off.
+
+## Next Steps
+- I plan to replace the breadboard with a circuit board where I solder on the jumper wires. This will allow the wires to stay on the board without the risk of falling out.
+- I will add a button to the Automated Cat Laser, so I can choose whether or not the program runs.
+- I can also add an ultra-sonic sensor or a camera to detect if there's movement or if there's a cat within frame, so the Automated Cat Laser can turn itself on by itself.
 
 # First Milestone
 ## Project Summary
