@@ -27,6 +27,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 -->
 
+## Project Summary
+In my third and final milestone, I implemented machine learning to detect if a cat is in a camera. I also implemented a button that toggles between an off and on state once the button is pressed. Once the camera detects a cat and the button is pressed ON, the connected arduino board begins movement. I switched the breadboard out for a perfboard, so that the whole design could not only take up less space, but the wires could be soldered on, reducing the chances of a jumper wire disconnecting. I attached an LED to the perfboard, as well, so that the status of the button could be more easily indicated. I switched the wooden board with a full 3D-printed model of a box, and I screwed the parts onto the 3D-printed box.
+
+## Parts Used
+- Implemented a machine learning program called YOLO v5 (You Only Look Once). It takes a large amount of images of different objects, and uses those images to learn the features of said objects. The machine learning program then tries to detect objects in a live video, and highlights the object in a box, along with displaying the percent certainty the program has with a detected object. Multiple aspects of the program can be changed, such as what percent certainty is required, or what images the program uses to learn.
+- A perfboard replaced the breadboard, and the wires connected to the breadboard had to be cut, stripped, and soldered onto the perfboard. I made this switch, because the perfboard was much smaller compared to the breadboard, and the perfboard has places for screws to go in, while the breadboard does not.
+- A button was soldered onto the perfboard. The button is a hold-down button, meaning it returns true if the button is held down. I programmed the button to make it a toggle button, meaning it returns true if the button is simply pressed.
+- An LED was soldered onto the perfboard, as well. It acts as an indicator for if the button is in the on state or off state. When the button is in the on state, the LED turns on.
+- 
+
 # Second Milestone
 <!---
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -57,6 +67,9 @@ In my second milestone, I installed a laser diode to the double-servo arm device
 - I can also add an ultra-sonic sensor or a camera to detect if there's movement or if there's a cat within frame, so the Automated Cat Laser can turn itself on by itself.
 
 # First Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUVGFRCeZjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Project Summary
 My project is the Automated Cat Laser. In the first milestone, I built the device that allows two micro servos to rotate it, effectively creating an arm for the laser to be installed on. I connected all of the motors to the Arduino Uno board and the breadboard.
 
@@ -73,9 +86,10 @@ My project is the Automated Cat Laser. In the first milestone, I built the devic
 - I will add the laser diode to the servo device and the arduino board, and program it to turn on.
 - I will also refine the code for the servos, so that the servos move in a consistent pattern, rather than choppy moves in one-second intervals.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KUVGFRCeZjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 # Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-w8U305zvZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Project Summary
 My starter project is the Useless Box. The Useless Box consists of a lever installed on the motherboard, which when turned on, activates a rotating servo. The servo has an arm attached to it, and when the servo is activated, the arm inside the Useless Box will rotate to the lever, turning the Useless Box off, which will return the arm that turned off the machine to the original position.
 
@@ -93,8 +107,6 @@ The Useless Box consists of the following parts:
 One challenge I faced with the project was when the arm attached to the servo missed the lever, and rendered the box *actually* useless. I had to re-adjust the servo and the arm to make sure it hit the lever when the lever was flipped. Another issue I faced was the soldering. I had to hold each piece in the correct orientation when soldering, and I consistently burned myself during the first few tries. I was eventually able to learn some tips and tricks, and finished soldering the rest of the parts without burning myself.
 
 After the starter project, I will work on my intensive project, which is the Automated Cat Laser.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-w8U305zvZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!---
 # Schematics 
