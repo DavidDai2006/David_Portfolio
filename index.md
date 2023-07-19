@@ -53,9 +53,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
+-->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vxVb9N34CkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
--->
 ## Project Summary
 In my second milestone, I installed a laser diode to the double-servo arm device, and programmed the laser to turn off and off while the servos were rotating. Additionally, I altered the code for the servos to make a consistent and streamlined movement instead of erratics jumps every second. This involved the use of "while" statements to constantly run a command that turns the servos little by little. I also added a wooden board and drilled holes into it so that I could screw in the arduino uno board and the double-servo arm.
 
