@@ -28,14 +28,19 @@ For your final milestone, explain the outcome of your project. Key details to in
 -->
 
 ## Project Summary
-In my third and final milestone, I implemented machine learning to detect if a cat is in a camera. I also implemented a button that toggles between an off and on state once the button is pressed. Once the camera detects a cat and the button is pressed ON, the connected arduino board begins movement. I switched the breadboard out for a perfboard, so that the whole design could not only take up less space, but the wires could be soldered on, reducing the chances of a jumper wire disconnecting. I attached an LED to the perfboard, as well, so that the status of the button could be more easily indicated. I switched the wooden board with a full 3D-printed model of a box, and I screwed the parts onto the 3D-printed box.
+In my third and final milestone, I implemented machine learning to detect if a cat is in a camera. I also implemented a button that toggles between an off and on state once the button is pressed. Once the camera detects a cat or the added button is pressed ON, the connected arduino board begins movement. I switched the breadboard out for a perfboard, so that the whole design could not only take up less space, but the wires could be soldered on, reducing the chances of a jumper wire disconnecting. I attached an LED to the perfboard, as well, so that the status of the button could be more easily indicated. I switched the wooden board with a full CAD box, and screwed all of the components onto the new box.
 
 ## Parts Used
 - Implemented a machine learning program called YOLO v5 (You Only Look Once). It takes a large amount of images of different objects, and uses those images to learn the features of said objects. The machine learning program then tries to detect objects in a live video, and highlights the object in a box, along with displaying the percent certainty the program has with a detected object. Multiple aspects of the program can be changed, such as what percent certainty is required, or what images the program uses to learn.
 - A perfboard replaced the breadboard, and the wires connected to the breadboard had to be cut, stripped, and soldered onto the perfboard. I made this switch, because the perfboard was much smaller compared to the breadboard, and the perfboard has places for screws to go in, while the breadboard does not.
 - A button was soldered onto the perfboard. The button is a hold-down button, meaning it returns true if the button is held down. I programmed the button to make it a toggle button, meaning it returns true if the button is simply pressed.
 - An LED was soldered onto the perfboard, as well. It acts as an indicator for if the button is in the on state or off state. When the button is in the on state, the LED turns on.
-- 
+- Used CAD to create a box for the components to be held in. The box would hide the messy wiring, and would make the project look generally nicer.
+
+## Challenges
+- Establishing communication between YOLO v5 and the Arduino Uno board was extremely difficult. This is because YOLO v5 is in Python, while the Arduino board is in C++. I had to go into the detection code and create a method that encoded specific information into string format, so that it could send it to the Arduino board in a way that the board could understand it if a cat was detected by YOLO v5.
+- I found that the micro servos I used would very easily break. The wires inside the servo motors would break off of the board if too much tension was applied to the wires. I had to open up the micro servo and re-solder the wire back onto the board, which took a lot of time.
+- Re-programming the button from a hold-down button to a toggle button proved to be very difficult.
 
 # Second Milestone
 <!---
