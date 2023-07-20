@@ -150,7 +150,6 @@ void setup() {
 
 void buttonTest(){
   buttonState = digitalRead(2);
-  //Serial.println(buttonState);
   if (buttonState == HIGH && beginning == true && firstPressState == false && secondPressState == false){
     firstPressState = true;
     beginning = false;
