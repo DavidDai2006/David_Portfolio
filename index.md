@@ -120,7 +120,6 @@ After the starter project, I will work on my intensive project, which is the Aut
 ![First Image](CatLaserSchematic.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #include <Servo.h> 
@@ -196,14 +195,12 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino Uno Board | The master board that controls all of the hardware, such as the servos and lasers. | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Solderable Perfboard | What the item is used for | $9.99 | <a href="https://www.amazon.com/ElectroCookie-Solderable-Breadboard-Electronics-Gold-Plated/dp/B081MSKJJX/"> Link </a> |
+| Solderable Perfboard | A board that allows wires to be soldered onto it. Acts as the component where all of the parts can be connected to the power and/or ground. | $9.99 | <a href="https://www.amazon.com/ElectroCookie-Solderable-Breadboard-Electronics-Gold-Plated/dp/B081MSKJJX/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Micro Servo 9g x2 | Servos that rotate up to 180 degrees and act as the joints for the arm that rotates the laser diode. | $7.29 | <a href="https://www.amazon.com/Sipytoph-Helicopter-Airplane-Walking-Control/dp/B09185SC1W/"> Link </a> |
 |:--:|:--:|:--:|:--:|
