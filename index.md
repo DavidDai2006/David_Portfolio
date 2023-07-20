@@ -203,6 +203,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Arduino Uno Board | The master board that controls all of the hardware, such as the servos and lasers. | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
+| Solderable Perfboard | What the item is used for | $9.99 | <a href="https://www.amazon.com/ElectroCookie-Solderable-Breadboard-Electronics-Gold-Plated/dp/B081MSKJJX/"> Link </a> |
+|:--:|:--:|:--:|:--:|
 | Micro Servo 9g x2 | Servos that rotate up to 180 degrees and act as the joints for the arm that rotates the laser diode. | $7.29 | <a href="https://www.amazon.com/Sipytoph-Helicopter-Airplane-Walking-Control/dp/B09185SC1W/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Tactile Switch Button | A hold-down button I programmed to be a toggle button. I only used one. | $11.99 | <a href="https://www.amazon.com/Tactile-Button-Horizontal-Momentary-12x12x12mm/dp/B0BLZNJ9DW/"> Link </a> |
@@ -211,9 +213,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Resistors | Limiting voltage on the button and LED, preventing shorts. I only used a 220Ω resistor and 10kΩ resistor for the LED and button, respectively. | $10.99 | <a href="https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 5V Laser Diode | Shoots a laser when the button is pressed or when the object detection program picks up a cat. | $6.79 | <a href="https://www.amazon.com/HiLetgo-10pcs-650nm-Diode-Laser/dp/B071FT9HSV/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Jumper Wires | Making connections between the Arduino Uno board and other hardware, such as servo motors. | $7.99 | <a href="https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Regular Copper Wires | Making small connections within the perfboard | $14.99 | <a href="https://www.amazon.com/TUOFENG-Hookup-Wires-6-Different-Colored/dp/B07TX6BX47"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| OnShape | Website used to design the box that holds all the components. | N/A | <a href="onshape.com"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
