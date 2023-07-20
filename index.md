@@ -119,22 +119,80 @@ After the starter project, I will work on my intensive project, which is the Aut
 
 ![First Image](CatLaserSchematic.png)
 
-<!---
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#include <Servo.h> 
+int servoPinBase = 3; 
+int servoPinRotate = 4;
+Servo servoBase, servoRotate;
+int data;
+
+int baseAngle = 0;
+int rotateAngle = 0;
+int buttonState = 0;
+bool firstPressState = false;
+bool secondPressState = false;
+bool beginning = true;
+bool buttonIsPressed = false;
+
+void setup() { 
+   servoBase.attach(servoPinBase);
+   servoRotate.attach(servoPinRotate);
+   servoBase.write(90);
+   servoRotate.write(0);
+   pinMode(7, OUTPUT); //Laser
+   pinMode(2, INPUT); //Button
+   pinMode(8, OUTPUT); //LED Indicator
+   Serial.begin(9600);
+}
+
+void buttonTest(){
+  buttonState = digitalRead(2);
+  //Serial.println(buttonState);
+  if (buttonState == HIGH && beginning == true && firstPressState == false && secondPressState == false){
+    firstPressState = true;
+    beginning = false;
+    digitalWrite(8, HIGH);
+    buttonIsPressed = true;
+  }
+  if (buttonState == LOW && firstPressState == true && beginning == false && secondPressState == false){
+    firstPressState = false;
+    secondPressState = true;
+  }
+  if (buttonState == HIGH && secondPressState == true && firstPressState == false && beginning == false){
+    digitalWrite(8, LOW);
+    secondPressState = false;
+    buttonIsPressed = false;
+  }
+  if (buttonState == LOW && secondPressState == false && beginning == false && firstPressState == false){
+    beginning = true;
+  }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  while (Serial.available()){
+      data = Serial.read();
+  }
 
+  buttonTest();
+
+  if (data == '1' || buttonIsPressed == true){
+    digitalWrite(7,HIGH);
+    baseAngle = random(45,135);
+    rotateAngle = random(0,70);
+    servoBase.write(baseAngle);
+    servoRotate.write(rotateAngle);
+    for (int a = 0; a < 25; a++){
+      delay(20);
+      buttonTest();
+    }
+  }
+  else{
+    digitalWrite(7,LOW);
+    delay(20);
+  }
 }
 ```
 
@@ -158,4 +216,3 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
--->
