@@ -1,7 +1,5 @@
 # Automated Cat Laser
-<!---
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
--->
+The Automated Cat Laser shines a laser diode and points it in random directions, allowing cats to chase the laser and play with it without a single person needing to do anything! In order to activate the laser, you can either press the button within the box, or activate an object detection program to detect cats and automatically activate the laser if a cat is detected! This project taught me how to solve my own problems without any help, and it also taught me that any problem can be solved with enough searching and trial and error.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
