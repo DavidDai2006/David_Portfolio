@@ -43,6 +43,18 @@ In my third and final milestone, I implemented machine learning to detect if a c
 - I found that the micro servos I used would very easily break. The wires inside the servo motors would break off of the board if too much tension was applied to the wires. I had to open up the micro servo and re-solder the wire back onto the board, which took a lot of time.
 - Re-programming the button from a hold-down button to a toggle button proved to be very difficult.
 
+## Future Plans
+- I picked up a lot of experience from this camp, and my goal is to employ the things I learned from this camp in my education and possibly create a career around engineering.
+- As for my project, I want to create a more sophisticated and streamlined movement pattern for my automatic laser. It currently makes erratic movements, and I want to make a smoother movement pattern for my laser.
+- I also want to possibly make the button more accessible to press.
+
+## What I learned
+- I learned the basics of many programming languages, mainly C++ and Python, in order to program my box and machine learning program, respectively.
+- I learned how to CAD in order to create my box that contains all of the parts. I had to create precise measurements to account for every part, screw, and cable.
+- I learned the functionality of many small hardware parts, such as servo motors, laser diodes, LEDs, and buttons.
+- I learned how machine learning generally works. It takes many images and create a neural network based on the pictures' features. The neural network is then employed on images or videos, detecting objects everywhere.
+- I learned how to solder, which is the melting of wires onto boards and other parts. It proved extremely difficult, as the process was rather dangerous and required extreme focus while using extremely hot and dangerous tools.
+
 # Second Milestone
 <!---
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
