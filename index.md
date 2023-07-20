@@ -115,8 +115,11 @@ One challenge I faced with the project was when the arm attached to the servo mi
 
 After the starter project, I will work on my intensive project, which is the Automated Cat Laser.
 
-<!---
 # Schematics 
+
+![First Image](CatLaserSchematic.png)
+
+<!---
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
