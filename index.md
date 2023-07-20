@@ -203,7 +203,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Arduino Uno Board | The master board that controls all of the hardware, such as the servos and lasers. | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Micro Servo 9g | Servos that rotate up to 180 degrees and act as the joints for the arm that rotates the laser diode. | $7.29 | <a href="https://www.amazon.com/Sipytoph-Helicopter-Airplane-Walking-Control/dp/B09185SC1W"> Link </a> |
+| Micro Servo 9g x2 | Servos that rotate up to 180 degrees and act as the joints for the arm that rotates the laser diode. | $7.29 | <a href="https://www.amazon.com/Sipytoph-Helicopter-Airplane-Walking-Control/dp/B09185SC1W/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Tactile Switch Button | A hold-down button I programmed to be a toggle button. I only used one. | $11.99 | <a href="https://www.amazon.com/Tactile-Button-Horizontal-Momentary-12x12x12mm/dp/B0BLZNJ9DW/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| 3V Red LED | An indicator for the status of the button. I only used one LED. | $Price | <a href="https://www.amazon.com/MCIGICM-Circuit-Assorted-Science-Experiment/dp/B07PG84V17/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Resistors | Limiting voltage on the button and LED, preventing shorts. I only used a 220Ω resistor and 10kΩ resistor for the LED and button, respectively. | $10.99 | <a href="https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
