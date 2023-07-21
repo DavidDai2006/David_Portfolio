@@ -6,7 +6,7 @@ The Automated Cat Laser shines a laser diode and points it in random directions,
 | David D | Homestead High School | Electrical Engineering | Incoming Senior
 
 <!---
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** NO >:)
 -->
 <img src="David-D-Headshot.png" width="400" height="500"> <img src="David-D-Project.png" width="400" height="500">
 
