@@ -216,7 +216,7 @@ void loop() {
 |:--:|:--:|:--:|:--:|
 | Tactile Switch Button | A hold-down button I programmed to be a toggle button. I only used one. | $11.99 | <a href="https://www.amazon.com/Tactile-Button-Horizontal-Momentary-12x12x12mm/dp/B0BLZNJ9DW/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 3V Red LED | An indicator for the status of the button. I only used one LED. | $Price | <a href="https://www.amazon.com/MCIGICM-Circuit-Assorted-Science-Experiment/dp/B07PG84V17/"> Link </a> |
+| 3V Red LED | An indicator for the status of the button. I only used one LED. | $4.99 | <a href="https://www.amazon.com/MCIGICM-Circuit-Assorted-Science-Experiment/dp/B07PG84V17/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Resistors | Limiting voltage on the button and LED, preventing shorts. I only used a 220Ω resistor and 10kΩ resistor for the LED and button, respectively. | $10.99 | <a href="https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
